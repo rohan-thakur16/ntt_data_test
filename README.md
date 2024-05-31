@@ -21,8 +21,8 @@ Prerequisites
   Clone the Repository
 
 Run this  command -
-git clone https://github.com/rohan-thakur16/exoplanet-microservice.git
-cd exoplanet-microservice
+git clone https://github.com/rohan-thakur16/ntt_data_test.git
+cd ntt_data_test
 
 Build and Run
 Build the application
@@ -56,6 +56,8 @@ json
 
 Copy code
 { "name": "Exoplanet Name", "description": "Description of the exoplanet", "distance": 150, "radius": 2.5, "mass": 5.0, "type": "Terrestrial" }
+
+
 Response:
 * 201 Created with the created exoplanet data.
 * 400 Bad Request if the input data is invalid.
@@ -121,3 +123,4 @@ New types of exoplanets can be added by:
 
 License
 This project is licensed under the MIT License.
+
