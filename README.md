@@ -130,39 +130,33 @@ This project is licensed under the MIT License.
 To run tests, run the following command
 
 ```bash
-  npm run test
+go test -v
 ```
-
-
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
-
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/rohan-thakur16/ntt_data_test
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd ntt_data_test
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  go mody tidy
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  go run main.go
 ```
 
 
